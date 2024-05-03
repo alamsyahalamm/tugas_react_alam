@@ -1,17 +1,19 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
+import Tugas6 from "./tugas6/tugas6";
+import Tugas7 from "./tugas7/tugas7";
 
 function App() {
   return (
     <div className="App">
-      <div className="box">
-        <h1 className="title">Hi, Saya Alamsyah</h1>
-        <hr></hr>
-        <p className="paragraph">
-          Saya dari Kelas 12 
-        </p>
-      </div>
+      <Tugas6 name="alamsyah" />
+      <Tugas7
+        namaLengkap="alamsyah Pranajanala Bhamakerti"
+        email="alamsyah931@smk.belajar.id"
+        kelas="XII Sija"
+      />
     </div>
   );
 }
+
 export default App;
