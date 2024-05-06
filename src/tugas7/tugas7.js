@@ -3,7 +3,7 @@ import React from "react";
 function Tugas7(props) {
   return (
     <div className="box">
-      <h1 className="title">Data diri peserta kelas ReactJs</h1>
+      <h1 className="title">Data Pribadi</h1>
       <hr />
       <ul className="paragraph">
         <li>
@@ -11,12 +11,16 @@ function Tugas7(props) {
           {props.namaLengkap}
         </li>
         <li>
-          <strong>Email : </strong>
-          {props.email}
+          <strong>Sekolah : </strong>
+          {props.Sekolah}
         </li>
         <li>
           <strong>Kelas : </strong>
           {props.kelas}
+        </li>
+        <li>
+          <strong>Ig: </strong>
+          {props.Ig}
         </li>
       </ul>
     </div>

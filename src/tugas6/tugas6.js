@@ -6,7 +6,7 @@ function Tugas6(props) {
       <h1 className="title">Hi, Saya {props.name}</h1>
       <hr />
       <p className="paragraph">
-        Saya dari Kelas 12 sudah berhasil menginstall React
+        Saya Sebagai Web Developer
       </p>
     </div>
   );
