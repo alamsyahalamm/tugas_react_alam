@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Tugas6 name="alamsyah" />
       <Tugas7
-        namaLengkap="alamsyah Pranajanala Bhamakerti"
+        namaLengkap="alamsyah"
         email="alamsyah931@smk.belajar.id"
         kelas="XII Sija"
       />
